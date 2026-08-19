@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Commander Deck Building"
 permalink: /commander-deck-building
+---
 
 # Commander Deck Building
 
