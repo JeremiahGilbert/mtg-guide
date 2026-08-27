@@ -7,15 +7,18 @@ permalink: /commander-deck-building
 
 ## General Deck Structure
 
-| Category       | Quantity | Description                               |
-|----------------|----------|-------------------------------------------|
-| Commander      | 1        | The basis of the deck                     |
-| Lands          | ~36      | Do not skimp on lands                     |
-| Ramp           | ~10      | Mana rocks, mana dorks, and ramp spells   |
-| Card Advantage | ~10      | Draw, scry, surveil, and impulse effects  |
-| Interaction    | ~10      | Removal, Protection, Counters             |
-| Board Wipes    | ~3       | Mass Destruction, Mass Exile, Mass Bounce |
-| Theme          | ~30      | Commander synergy and win conditions      |
+Below is the general structure of a "responsibly built" bracket 3 midrange commander deck.
+It serves as the basis or template from which a deck can be built.
+
+| Category       | Quantity | Description                                       |
+|----------------|----------|---------------------------------------------------|
+| Commander      | 1        | The basis of the deck                             |
+| Lands          | ~36      | Do *not* skimp on lands                           |
+| Ramp           | ~10      | Mana rocks, mana dorks, and ramp spells           |
+| Card Advantage | ~10      | Draw, scry, surveil, and impulse effects          |
+| Interaction    | ~10      | Removal and counterspells                         |
+| Board Wipes    | ~3       | Mass Destruction, Mass Exile, Mass Bounce         |
+| Theme          | ~30      | Commander synergy, win conditions, and Protection |
 
 ### Always try to match your theme
 
@@ -49,141 +52,82 @@ Some common win conditions include:
 
 ## Lands
 
-Lands in commander can be broken down into 3 types.
-These are, in order of importance, mana fixing lands, utility lands, and basic lands.
-Ideally, the majority of a decks landbase will be mana fixing lands, with a few utility lands as consistency will allow.
+Lands in commander can be broken down into 4 types.
+These are, in order of importance, mana fixing lands, ramp lands, utility lands, and basic lands.
+Ideally, the majority of a decks landbase will be mana fixing lands, with a few ramp and utility lands as consistency will allow.
 The remaining slots are filled with basics to provide targets for ramp spells and fetchlands.
 Roughly 8-12 lands should be basics at most.
 
-The land cycles in order of inclusion priority are listed below:
-1. Fetchlands
-2. ABUR Duals
-3. Shocklands
-4. Tricycle Lands
-5. Surveil Lands
-6. Bondlands
-7. Fast Lands
-8. Check Lands
-9. Tango Lands
-10. Slowland
-11. Painlands
-12. Pathways
-13. Bounce Lands
-14. Verges
-15. Filter Lands
-16. Signet Lands
-17. Temples
-18. Pinglands
-19. Bridges
-20. Snow Duals
-21. DMU Duals
-22. Guildgates
+### Mana Fixing Lands
 
-### Fetchlands (`otag:cycle-fetchland`)
+Mana fixing lands are lands used in multicolor decks to ensure the correct colors and quantities of mana are available when necessary.
+In all multicolor decks, mana fixing lands are the most important category of land.
+The more colors a deck has, the more strict it must be on running more color fixing lands and fewer utility lands.
+A 5-color deck must effectively use its *entire* landbase to fix colors to ensure that as many spells are castable as quickly as possible.
 
-These lands are phenomenal for mana fixing, potentially providing all 5 colors depending on the included fetch targets.
-Absolute must includes in any multicolor deck.
+Below are some staple mana fixing lands:
+| Land            | Note                                                   |
+|-----------------|--------------------------------------------------------|
+| Command Tower   | Autoinclude in any multicolor deck                     |
+| Starting Town   | Arguably better Mana Confluence when played early      | 
+| Mana Confluence | Good fixing for any deck that doesn't mind chip damage |
+| City of Brass   | Good fixing for any deck that doesn't mind chip damage |
+| Cavern of Souls | Typal decks                                            |
 
-| Name              | Color                                                                                                                              | Faction  |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Flooded Strand    | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Azorius  |
-| Polluted Delta    | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Dimir    |
-| Bloodstained Mire | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Rakdos   |
-| Wooded Foothills  | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Gruul    |
-| Windswept Heath   | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Selesnya |
-| Marsh Flats       | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Orzhov   |
-| Scalding Tarn     | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Izzet    |
-| Verdant Catacombs | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Golgari  |
-| Arid Mesa         | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Boros    |
-| Misty Rainforest  | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Simic    |
+The mana fixing land cycles in order of inclusion priority are listed below:
+1. [Fetchlands](https://tagger.scryfall.com/tags/card/cycle-fetchland)
+2. [ABUR Duals](https://tagger.scryfall.com/tags/card/cycle-abu-dual-land)
+3. [Shocklands](https://tagger.scryfall.com/tags/card/cycle-rav-shockland)
+4. [Tricycle Lands](https://tagger.scryfall.com/tags/card/tricycle-land)
+5. [Surveil Lands](https://tagger.scryfall.com/tags/card/cycle-dual-surveil-land)
+6. [Bondlands](https://tagger.scryfall.com/tags/card/cycle-bondland)
+7. [Fastlands](https://tagger.scryfall.com/tags/card/cycle-fastland) / [Slowlands](https://tagger.scryfall.com/tags/card/cycle-slowland) / [Checklands](https://tagger.scryfall.com/tags/card/cycle-checkland)
+8. [Tangolands](https://tagger.scryfall.com/tags/card/cycle-tangoland)
+9. [Painlands](https://tagger.scryfall.com/tags/card/cycle-painland)
+10. [Verges](https://tagger.scryfall.com/tags/card/cycle-verge)
+11. [Pathways](https://tagger.scryfall.com/tags/card/cycle-pathway)
+12. [Bounce Lands](https://tagger.scryfall.com/tags/card/cycle-rav-bounceland)
+13. [Filter Lands](https://tagger.scryfall.com/tags/card/cycle-hybrid-filterlands)
+14. [Signet Lands](https://tagger.scryfall.com/tags/card/cycle-ody-filterland)
+15. [Temples](https://tagger.scryfall.com/tags/card/cycle-block-ths-scry-land)
+16. [Pinglands](https://tagger.scryfall.com/tags/card/cycle-otj-pingland)
+17. [Bridges](https://tagger.scryfall.com/tags/card/cycle-mh2-bridge)
+18. [Snow Duals](https://tagger.scryfall.com/tags/card/cycle-khm-snow-tapland)
+19. [DMU Duals](https://tagger.scryfall.com/tags/card/cycle-dmu-dual-land)
+20. [Guildgates](https://tagger.scryfall.com/tags/card/cycle-guildgate)
 
-### ABUR Duals (`otag:cycle-abu-dual-land`)
+### Ramp Lands
 
-Unconditional typed dual lands.
-Best possible fetch targets bar none.
+Ramp lands are lands that provide more mana than one per turn.
+They can be used to increase a deck's tempo and play threats earlier.
 
-| Name            | Color                                                                                                                              | Faction  |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Tundra          | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Azorius  |
-| Underground Sea | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Dimir    |
-| Badlands        | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Rakdos   |
-| Taiga           | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Gruul    |
-| Savannah        | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Selesnya |
-| Scrubland       | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Orzhov   |
-| Volcanic Island | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Izzet    |
-| Bayou           | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Golgari  |
-| Plateau         | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Boros    |
-| Tropical Island | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Simic    |
+| Land                   | Note              |
+|------------------------|-------------------|
+| Ancient Tomb           | Game changer      |
+| Gaea's Cradle          | Creature decks    |
+| Serra's Sanctum        | Enchantment Decks |
+| Cabal Coffers          | Mono black        |
+| Nykthos, Shrine to Nyx | Mono color decks  |
+| Three Tree City        | Typal decks       |
 
-### Shocklands (`otag:cycle-rav-shockland`)
+### Utility Lands
 
-Typed dual lands with inconsequential cost to enter untapped.
+Utility lands are lands that provide an anciliary benefit within a land slot.
+They are a nice-to-have bonus over basic lands as the deck's color requirements allow.
 
-| Name              | Color                                                                                                                              | Faction  |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Hallowed Fountain | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Azorius  |
-| Watery Grave      | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Dimir    |
-| Blood Crypt       | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Rakdos   |
-| Stomping Ground   | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Gruul    |
-| Temple Garden     | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Selesnya |
-| Godless Shrine    | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Orzhov   |
-| Steam Vents       | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Izzet    |
-| Overgrown Tomb    | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Golgari  |
-| Sacred Foundry    | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Boros    |
-| Breeding Pool     | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Simic    |
-
-### Tricycle Lands (`otag:tricycle-land`)
-
-Typed three color lands.
-Must includes in 3+ color decks.
-
-| Name                     | Color                                                                                                                                                                                                 | Faction |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| Spara's Headquarters     | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" />   | Bant    |
-| Raffine's Tower          | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" />   | Esper   |
-| Xander's Lounge          | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" />   | Grixis  |
-| Ziatora's Proving Ground | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" />   | Jund    |
-| Jetmir's Garden          | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" />   | Naya    |
-| Savai Triome             | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" />   | Mardu   |
-| Ketria Triome            | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" />   | Temur   |
-| Indatha Triome           | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" />   | Abzan   |
-| Raugrin Triome           | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" />   | Jeskai  |
-| Zagoth Triome            | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" />   | Sultai  |
-
-### Surveil Lands (`otag:cycle-dual-surveil-land`)
-
-Typed dual lands that enter tapped, but provide card advantage.
-Simultaneously the best tapland cycle and the worst typed dual cycle.
-
-| Name                 | Color                                                                                                                              | Faction  |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Meticulous Archive   | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Azorius  |
-| Undercity Sewers     | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Dimir    |
-| Raucous Theater      | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Rakdos   |
-| Commercial District  | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Gruul    |
-| Lush Portico         | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Selesnya |
-| Shadowy Backstreet   | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Orzhov   |
-| Thundering Falls     | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Izzet    |
-| Underground Mortuary | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Golgari  |
-| Elegant Parlor       | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Boros    |
-| Hedge Maze           | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Simic    |
-
-### Bondlands (`otag:cycle-bondland`)
-
-Typed dual lands that enter tapped, but provide card advantage.
-Simultaneously the best tapland cycle and the worst typed dual cycle.
-
-| Name                 | Color                                                                                                                              | Faction  |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Meticulous Archive   | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Azorius  |
-| Undercity Sewers     | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Dimir    |
-| Raucous Theater      | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Rakdos   |
-| Commercial District  | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Gruul    |
-| Lush Portico         | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Selesnya |
-| Shadowy Backstreet   | <img src="https://files.mtg.wiki/W.svg" width="16" height="16" /><img src="https://files.mtg.wiki/B.svg" width="16" height="16" /> | Orzhov   |
-| Thundering Falls     | <img src="https://files.mtg.wiki/U.svg" width="16" height="16" /><img src="https://files.mtg.wiki/R.svg" width="16" height="16" /> | Izzet    |
-| Underground Mortuary | <img src="https://files.mtg.wiki/B.svg" width="16" height="16" /><img src="https://files.mtg.wiki/G.svg" width="16" height="16" /> | Golgari  |
-| Elegant Parlor       | <img src="https://files.mtg.wiki/R.svg" width="16" height="16" /><img src="https://files.mtg.wiki/W.svg" width="16" height="16" /> | Boros    |
-| Hedge Maze           | <img src="https://files.mtg.wiki/G.svg" width="16" height="16" /><img src="https://files.mtg.wiki/U.svg" width="16" height="16" /> | Simic    |
-
-
+| Land                           | Note                       |
+|--------------------------------|----------------------------|
+| Eiganjo, Seat of the Empire    | Any white deck             |
+| Otawara, Soaring City          | Any blue deck              |
+| Tankenuma, Abandoned Mire      | Any black deck             |
+| Sokenzan, Crucible of Defiance | Any red deck               |
+| Boseiju, Who Endures           | Any green deck             |
+| Bojuka Bog                     | Graveyard hate             |
+| Reliquary Tower                | Card draw heavy decks      |
+| Strip Mine                     | Targeted land removal      |
+| Wasteland                      | Targeted land removal      |
+| Maze of Ith                    | Remove threat from combat  |
+| Field of the Dead              | Lands matter               |
+| Yavimaya, Cradle of Growth     | Mono G ramp                |
+| Urborg, Tomb of Yawgmoth       | Combine with Cabal Coffers |
+| Volrath's Stronghold           | Reanimator decks           |
