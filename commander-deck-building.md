@@ -1,6 +1,6 @@
 ---
 title: "Commander Deck Building"
-permalink: /commander-deck-building
+permalink: /
 ---
 
 # Commander Deck Building
@@ -66,6 +66,7 @@ The more colors a deck has, the more strict it must be on running more color fix
 A 5-color deck must effectively use its *entire* landbase to fix colors to ensure that as many spells are castable as quickly as possible.
 
 Below are some staple mana fixing lands:
+
 | Land            | Note                                                   |
 |-----------------|--------------------------------------------------------|
 | Command Tower   | Autoinclude in any multicolor deck                     |
@@ -87,7 +88,7 @@ The mana fixing land cycles in order of inclusion priority are listed below:
 10. [Verges](https://tagger.scryfall.com/tags/card/cycle-verge)
 11. [Pathways](https://tagger.scryfall.com/tags/card/cycle-pathway)
 12. [Bounce Lands](https://tagger.scryfall.com/tags/card/cycle-rav-bounceland)
-13. [Filter Lands](https://tagger.scryfall.com/tags/card/cycle-hybrid-filterlands)
+13. [Filter Lands](https://tagger.scryfall.com/tags/card/cycle-hybrid-filterland)
 14. [Signet Lands](https://tagger.scryfall.com/tags/card/cycle-ody-filterland)
 15. [Temples](https://tagger.scryfall.com/tags/card/cycle-block-ths-scry-land)
 16. [Pinglands](https://tagger.scryfall.com/tags/card/cycle-otj-pingland)
@@ -119,7 +120,7 @@ They are a nice-to-have bonus over basic lands as the deck's color requirements 
 |--------------------------------|----------------------------|
 | Eiganjo, Seat of the Empire    | Any white deck             |
 | Otawara, Soaring City          | Any blue deck              |
-| Tankenuma, Abandoned Mire      | Any black deck             |
+| Takenuma, Abandoned Mire       | Any black deck             |
 | Sokenzan, Crucible of Defiance | Any red deck               |
 | Boseiju, Who Endures           | Any green deck             |
 | Bojuka Bog                     | Graveyard hate             |
@@ -131,3 +132,5 @@ They are a nice-to-have bonus over basic lands as the deck's color requirements 
 | Yavimaya, Cradle of Growth     | Mono G ramp                |
 | Urborg, Tomb of Yawgmoth       | Combine with Cabal Coffers |
 | Volrath's Stronghold           | Reanimator decks           |
+
+
